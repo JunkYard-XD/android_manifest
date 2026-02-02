@@ -94,10 +94,10 @@
   <project path="lineage-sdk" name="android_lineage-sdk" remote="ext" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="ext" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="ext" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3-ext" remote="XD" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="ext" />
   <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="ext" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings-ext" remote="XD" />
-  <project path="packages/apps/Settings/ext" name="android_packages_apps_Settings_extlab" remote="XD" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ext" />
+  <project path="packages/apps/Settings/ext" name="android_packages_apps_Settings_ext" remote="ext" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="ext" />
   <project path="system/bpf" name="android_system_bpf" remote="ext" />
   <project path="system/core" name="android_system_core" remote="ext" />
