@@ -37,6 +37,10 @@
            fetch="https://github.com/Neoteric-OS"
            revision="refs/heads/bka" />
 
+  <remote  name="ext-ssh"
+           fetch="ssh://git@github.com/Los-Ext"
+           revision="refs/heads/16.1" />
+
  <!-- Remove LineageOS Forks -->
   <remove-project path="android" />
   <remove-project path="art" />
@@ -88,7 +92,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="ext" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="ext" />
   <project path="frameworks/av" name="android_frameworks_av" remote="ext" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="ext" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ext-ssh" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="ext" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ext" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="ext" />
@@ -97,7 +101,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="ext" />
   <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="ext" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ext" />
-  <project path="packages/apps/Settings/ext" name="android_packages_apps_Settings_ext" remote="ext" />
+  <project path="packages/apps/Settings/ext" name="android_packages_apps_Settings_ext" remote="ext-ssh" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="ext" />
   <project path="system/bpf" name="android_system_bpf" remote="ext" />
   <project path="system/core" name="android_system_core" remote="ext" />
